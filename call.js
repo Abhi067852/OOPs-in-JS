@@ -19,5 +19,6 @@ let showdet=function()
 showdet.call(person2)  //concept of function borrowing function can work for multiple objects
  // in apply the external arguments are passed with the help of an array
 //  showdet.apply(person2,["noida","bmw"])
-// in bind it make function of function thus we need to store it and then invoke our bind function
+// in bind it make function of function thus we need to store it and then invoke our bind function and function arguments are same as apply
+
 
