@@ -70,6 +70,21 @@
 // obj.f(); // return global object 
 
 
+// this keyword in browser
+//non strict mode
+// console.log(this) returns window object
+// function->log    returns window object
+// object->function returns object itself
+// object->function->function return window object
+ 
+//strict mode
+// console.log(this) returns window object
+// function->log return undefined
+// object->function return object itself
+// object->function->function return undefined
+
+
+
 
 
 
