@@ -15,9 +15,9 @@ Function.prototype.myBind=function(...args)
 
     let obj=this
     params=args.slice(1)
-    return function()
+    return function(...args2)
     {
-        obj.apply(args[0],params) 
+        obj.apply(args[0],[...params,...args]) 
     }
 }
 let showdetbind=showdet.myBind(person1,"New Delhi","India");
